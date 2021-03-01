@@ -1,0 +1,51 @@
+.banner{
+	background-image: url("b4.jpg");
+	background-size: cover;
+	height:500px;
+
+}
+.banner1{
+	background-image: url("p1.jpg");
+	background-size: cover;
+	height:500px;
+
+}
+.banner2{
+	background-image: url("mh.webp");
+	background-size: cover;
+	height:500px;
+
+}
+.submenu ul {
+	display:none;
+	z-index: -1;
+}
+.menubar{	
+	list-style:none;
+	display:inline-flex;
+}
+.menubar ul li a{	
+	color:white;
+	text-decoration:none;	
+}
+.menubar ul li{
+	padding:10px;
+}
+.menubar ul li:hover{
+	background-color:white;
+	border-radius:10px;
+}
+.menubar ul li:hover .submenu{
+	display:block;
+	position:absolute;
+	background-color:black;
+	border-radius:10px;
+	margin-top:2px;
+	margin-left:-15px;
+	padding:10px;
+
+}
+.imgsize{
+	height: 100%;
+	width: 100
+}
